@@ -1,0 +1,17 @@
+[
+	{
+		"field":"search",
+		"label":"按标题内容",
+		"placeholder":"请输入关键字"
+	},
+	{
+		"field":"column_id",
+		"label":"",
+		"state":"hidden",
+		"rules": [
+			{
+				"type": "hidden"
+			}
+		]
+	}
+]

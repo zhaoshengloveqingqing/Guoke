@@ -1,0 +1,113 @@
+-
+        controller: user
+        method: create
+        notes: 创建新用户
+
+-
+        controller: user
+        method: show
+        notes: 查看用户详情
+-
+        controller: user
+        method: edit
+        notes: 修改用户
+
+-
+        controller: user
+        method: delete
+        notes: 删除用户
+
+-
+        controller: role
+        method: create
+        notes: 创建角色
+
+-
+        controller: role
+        method: show
+        notes: 查看角色详情
+
+-
+        controller: role
+        method: edit
+        notes: 修改角色
+
+-
+        controller: role
+        method: delete
+        notes: 删除角色
+
+-
+        controller: resource
+        method: create
+        notes: 上传文件
+
+-
+        controller: resource
+        method: show
+        notes: 查看文件详情
+
+-
+        controller: resource
+        method: edit
+        notes: 修改文件
+
+-
+        controller: resource
+        method: delete
+        notes: 删除文件
+
+-
+        controller: banner
+        method: create
+        notes: 上传banner
+
+-
+        controller: banner
+        method: show
+        notes: 查看所有banner
+
+-
+        controller: banner
+        method: edit
+        notes: 修改banner信息
+
+-
+        controller: banner
+        method: delete
+        notes: 删除banner
+
+-
+        controller: partner
+        method: create
+        notes: 添加合作商
+
+-
+        controller: partner
+        method: show
+        notes: 查看合作商详情
+
+-
+        controller: partner
+        method: edit
+        notes: 修改合作商
+
+-
+        controller: partner
+        method: delete
+        notes: 删除合作商
+        
+-
+        controller: product
+        method: show
+        notes: 查看产品详情
+
+-
+        controller: product
+        method: edit
+        notes: 修改产品信息
+
+
+
+
+

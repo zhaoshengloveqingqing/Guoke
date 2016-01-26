@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Universal Ctags	//
+!_TAG_PROGRAM_URL	https://github.com/universal-ctags/ctags	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+Clips\Web\Controllers	/Users/jack/Sites/admin/application/Controllers/HomeController.php	/^<?php namespace Clips\\Web\\Controllers; in_array(__FILE__, get_included_files()) or exit("No direct script access allowed");$/;"	n
+HomeController	/Users/jack/Sites/admin/application/Controllers/HomeController.php	/^class HomeController extends Controller {$/;"	c	namespace:Clips\Web\Controllers	inherits:Controller
+err	/Users/jack/Sites/admin/application/Controllers/HomeController.php	/^	public function err() {$/;"	f	class:Clips\Web\Controllers::HomeController	access:public	signature:()
+index	/Users/jack/Sites/admin/application/Controllers/HomeController.php	/^	public function index() {$/;"	f	class:Clips\Web\Controllers::HomeController	access:public	signature:()
+test	/Users/jack/Sites/admin/application/Controllers/HomeController.php	/^	public function test() {$/;"	f	class:Clips\Web\Controllers::HomeController	access:public	signature:()

@@ -1,0 +1,12 @@
+{
+	"from": "banners",
+	"columns": [
+		{ "data":"banners.id", "title":"ID" },
+	  	{ "data":"banners.contents","title":"Banner_Conetent", "render": "datatable_render_banner_name" },
+	 	 { "data":"banners.type","title":"Banner_Type", "render": "datatable_render_banner_type" }
+	],
+  "lengthChange": false,
+  "searching": false,
+  "bundle": "banner"
+
+}

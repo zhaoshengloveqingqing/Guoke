@@ -1,0 +1,27 @@
+[
+  {
+	"field": "id",
+	"label": "ID",
+	"state": "readonly",
+	"rules": [
+	  { "type":"number" }
+	]
+  },
+  {
+	"field": "company_name",
+	"label": "Company Name",
+	"rules": [
+	  { "type":"string" },
+	  { "maxlengh":"128" },
+	  { "minlength":"4" },
+	  "required"
+	]
+  },
+  {
+	"field": "logo_path",
+	"label": "Logo Path",
+	"rules": [
+	  { "type":"string" }
+	]
+  }
+]

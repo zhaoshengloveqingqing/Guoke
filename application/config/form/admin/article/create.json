@@ -1,0 +1,50 @@
+[
+  {
+	"field": "id",
+	"label": "ID",
+	"state": "readonly",
+	"rules": [
+	  { "type":"number" }
+	]
+  },
+  {
+	"field": "title",
+	"label": "Title",
+	"rules": [
+	  { "type":"string" },
+	  { "maxlengh":"20" },
+	  { "minlength":"4" }
+	]
+  },
+  {
+	"field": "content",
+	"label": "Content",
+	"rules": [
+	  { "type":"string" }
+	]
+  },
+  {
+	"field": "visit_volumn",
+	"label": "Visit Volumn",
+	"rules": [
+	  { "type":"number" },
+	  { "maxlengh":"60" }
+	]
+  },
+  {
+	"field": "type",
+	"label": "Type",
+	"rules": [
+	  { "type":"string" }
+	]
+  },
+  {
+	"field": "release_date",
+	"label": "Release Date",
+	"rules":[
+	  {"data-role":"date dategroup"},
+	  {"data-date-options": "{ format: 'YYYY-MM-DD' }"},
+	  {"data-date-control":"front"}
+	]
+  }
+]

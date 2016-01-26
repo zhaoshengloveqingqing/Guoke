@@ -1,0 +1,8 @@
+/vendor
+/application/cache
+composer.lock
+.htaccess
+.idea/
+.DS_Store
+*.swp
+*.swo

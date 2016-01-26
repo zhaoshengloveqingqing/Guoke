@@ -1,0 +1,374 @@
+body {
+	min-width: 1280px;
+	overflow: scroll;
+}
+.appointment{
+	width: 84%;
+	margin: 0 auto;
+	h3{
+		margin-top: 155px;
+		font-size: 24px;
+		color: #444444;
+		line-height:35px;
+		text-align: left;
+		padding-left: 10px;
+		border-bottom: 1px solid #979797;
+		span{
+			font-size: 12px;
+			color: #777777;
+			line-height: 35px;
+			padding-left: 10px;
+		}
+	}
+	form{
+		width: 100%;
+		.form-group{
+			width: 40%;
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+		}
+		label{
+			font-size: 14px;
+			color: #444444;
+			line-height: 14px;
+			padding: 0;
+			margin: 0;
+			line-height: 25px;
+			min-width:75px;
+			width: 20%;
+		}
+		.col-lg-4{
+			display: inline-block;
+			padding: 0;
+			margin: 0;
+			padding-right: 20px;
+			width: 75%;
+			input{
+				margin: 0;
+				vertical-align: top;
+				background: rgba(0,0,0,0.05);
+				box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+				border:0;
+				font-size: 12px;
+				padding: 0;
+				padding-left:12px;
+				color: #444444;
+				height: 25px;
+				outline: none;
+				line-height: 25px;
+				width: 100%;
+			}
+		}
+		.top{
+			width: 98%;
+			margin: 0 auto;
+			.price{
+				display: inline-block;
+				width: 15%;
+				vertical-align: top;
+				.pricelable{
+					font-size: 14px;
+					color: #444444;
+					line-height: 25px;
+					padding: 0;
+					font-weight: bold;
+				}
+				.pricetext{
+					font-size: 18px;
+					color: #C41212;
+					line-height: 25px;
+					font-weight: bold;
+				}
+			}
+		}
+		.message{
+			width: 100%;
+			margin-bottom: 20px;
+			border:1px solid #A3D5E5;
+			h3{
+				padding:0;
+				margin: 0;
+				background: #E6F3F8;
+				width: 100%;
+				padding-left:1%;
+				border:0;
+				font-size: 14px;
+				color: #444444;
+				line-height: 35px;
+				font-weight: bold;
+			}
+			.visitor{
+				width: 98%;
+				margin: 0 auto;
+				margin-top: 20px;
+				height:82px;
+				border-bottom: 1px solid #A3D5E5;
+				.plus{
+					display: inline-block;
+					width:20px;
+					height: 20px;
+					position:relative;
+					z-index: 999;
+					top:5px;
+					float: right;
+					cursor: pointer;
+					i{
+						display: inline-block;
+						width:20px;
+						height: 20px;
+						background: url(php_static_url("/application/static/img/about/close.png")) center no-repeat;
+					}
+				}
+				.row1{
+					width: 100%;
+					height: 30px;
+					line-height: 30px;
+					div{
+						display: inline-block;
+					}
+				}
+				.row2{
+					width: 100%;
+					height: 30px;
+					line-height: 30px;
+					div{
+						display: inline-block;
+					}
+				}
+			}
+			#template{
+				width: 0px;
+				height: 0;
+				overflow: hidden;
+
+			}
+			.add{
+				height: 25px;
+				margin: 30px 0;
+				width: 100%;
+				margin-left: 2%;
+				a{
+					display: inline-block;
+					width: 173px;
+					height: 25px;
+					line-height: 25px;
+					text-align: center;
+					background: #0099CC;
+					font-size: 13px;
+					color: #FFFFFF;
+					font-weight: bold;
+					cursor: pointer;
+					text-decoration: none;
+					b{
+						font-size: 18px;
+						line-height: 25px;
+						margin: 0;
+					}
+				}
+				span{
+					padding-left: 20px;
+					font-size: 12px;
+					color: #777777;
+					line-height: 25px;
+					i{
+						font-style: normal;
+					}
+				}
+			}
+			.contact{
+				width: 98%;
+				margin: 20px auto;
+				position: relative;
+				.row1{
+					width: 100%;
+					div{
+						display: inline-block;
+					}
+					a{
+						vertical-align: top;
+						display:inline-block;
+						width:59px;
+						height: 25px;
+						background: #0099CC;
+						font-size: 14px;
+						color: #FFFFFF;
+						font-weight: bold;
+						line-height: 25px;
+						text-align: center;
+						cursor: pointer;
+						text-decoration: none;
+						margin-left: -20px;
+					}
+					.validateinput{
+						vertical-align: top;
+						margin: 0;
+						background: rgba(0,0,0,0.05);
+						box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+						border:0;
+						font-size: 12px;
+						padding: 0;
+						padding-left:12px;
+						color: #444444;
+						height: 25px;
+						line-height: 25px;
+						width:12%;
+					}
+				}
+				.row3{
+					position: absolute;
+					top:0;
+					left:85%;
+					.form-group{
+						width:145px;
+						.validatelable{
+							display: none;
+						}
+						.validateinput{
+							width:145px;
+							vertical-align: top;
+						}
+					}
+				}
+				.row2{
+					width: 100%;
+					height: 30px;
+					line-height: 30px;
+					div{
+						display: inline-block;
+					}
+					label{
+						min-width:80px;
+					}
+					.col-lg-4{
+						input{
+
+						}
+					}
+				}
+			}
+			.accountfor{
+				width: 98%;
+				margin: 20px auto;
+				height: 80px;
+				.checkforaccount{
+					font-size: 13px;
+					color: #444444;
+					width: 160px;
+					height: 16px;
+					line-height: 16px;
+					input{
+						width: 16px;
+						height: 16px;
+						position: relative;
+						top:2px;
+						background: #FFFFFF;
+						border: 1px solid #979797;
+						box-shadow:0;
+					}
+				}
+				.row1{
+					width: 100%;
+					height: 30px;
+					line-height: 30px;
+					margin-top: 10px;
+					div{
+						display: inline-block;
+					}
+				}
+			}
+			.other{
+				width: 98%;
+				margin: 20px auto;
+				height: 120px;
+				.row1{
+					width: 100%;
+					height: 97px;
+					div{
+						display: inline-block;
+					}
+					.form-group{
+						width: 80%;
+						label{
+							width: 10%;
+							vertical-align: top;
+						}
+						.col-lg-4{
+							width: 87.5%;
+							textarea{
+								width: 100%;
+								height: 87px;
+								background: rgba(0,0,0,0.05);
+								box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+								font-size: 12px;
+								color: #444444;
+								line-height: 12px;
+							}
+						}
+					}
+				}
+				.row2 {
+					width: 100%;
+					height: 30px;
+					line-height: 30px;
+					.form-group{
+						vertical-align:top;
+					}
+					div {
+						display: inline-block;
+					}
+					label {
+						min-width: 80px;
+					}
+					.col-lg-4 {
+						input {
+						}
+					}
+					i{
+						display: inline-block;
+						position: relative;
+						width: 104px;
+						height: 29px;
+						background: url(php_static_url("/application/static/img/about/yzm.png")) center no-repeat;
+					}
+					a{
+						position: relative;
+						top:-2px;
+						font-size: 12px;
+						color: #777777;
+						line-height: 12px;
+						cursor: pointer;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.bottom{
+			width: 96%;
+			margin: 0 auto;
+			height:150px;
+			text-align: right;
+			margin-top: 40px;
+			span{
+				font-size: 14px;
+				color: #444444;
+				line-height: 14px;
+				padding-right: 10px;
+				i{
+					color: #C41212;
+					font-size: 20px;
+					font-style:normal;
+				}
+			}
+			input{
+				width: 177px;
+				height: 60px;
+				background: #0099CC;
+				font-size: 24px;
+				color: #FFFFFF;
+				line-height: 25px;
+				border:0;
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+[
+  {
+	"field": "id",
+	"label": "ID",
+	"state": "readonly",
+	"rules": [
+	  { "type":"number" },
+	  "required"
+	]
+  },
+  {
+	"field": "title",
+	"label": "Title",
+	"rules": [
+	  { "type":"string" },
+	  { "maxlengh":"20" },
+	  { "minlength":"4" }
+	]
+  },
+  {
+	"field": "contents",
+	"label": "Contents",
+	"rules": [
+	  { "type":"string" },
+	  { "maxlengh":"60" }
+	]
+  },
+  {
+	"field": "image_id",
+	"label": "Image ID",
+	"rules": [
+	  { "type":"number" },
+	  { "maxlengh":"60" }
+	]
+  },
+  {
+	"field": "category_id",
+	"label": "Category ID",
+	"rules": [
+	  { "type":"number" },
+	  { "maxlengh":"60" }
+	]
+  },
+  {
+	"field": "type",
+	"label": "Banner Type",
+	"rules": [
+	  { "type":"number" },
+	  { "maxlengh":"60" }
+	]
+  }
+]

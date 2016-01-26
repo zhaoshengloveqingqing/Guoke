@@ -1,0 +1,153 @@
+.service {
+	h3{
+		font-size: 36px;
+		color: #444444;
+		line-height: 50px;
+		text-align: center;
+	}
+	.service-info{
+		border-top: 18px solid #F5F5F5;
+		border-bottom: 18px solid #F5F5F5;
+	}
+	ul.service-info-cont{
+		padding-left: 0;
+		font-size: 0;
+		width: 100%;
+		margin:0 auto;
+		padding: 0 2%;
+		> li {
+			list-style: none;
+			font-size: 12px;
+			width: 30%;
+			display: inline-block;
+			margin: 30px 1%;
+			text-align: right;
+			vertical-align: top;
+			padding: 25px 15px;
+			background-image: linear-gradient(90deg, #FCFCFC 0%, #D9D9D9 100%);
+			border: 1px solid #979797;
+			min-height: 310px;
+		}
+		.service-detail {
+			h2 {
+				font-size: 45px;
+				color: #444444;
+				line-height: 52px;
+			}
+			ul {
+				padding-left: 0;
+				li {
+					list-style: none;
+					font-size: 18px;
+					color: #444444;
+					height: 26px;
+					line-height: 26px;
+					text-decoration: underline;
+				}
+			}
+			a {
+				background: #0099CC;
+				font-size: 18px;
+				margin-top: 30px;
+				color: #FFFFFF;
+				line-height: 25px;
+				padding: 10px;
+				display: block;
+				width:155px;
+				text-align: center;
+				cursor: pointer;
+				float: right;
+				&:hover{
+					background: #027BA3;
+				}
+			}
+		}
+	}
+}
+.service_content {
+	margin-top: 20px;
+	h2 {
+		font-size: 80px;
+		color: #0099CC;
+		text-align: center;
+	}
+	a.more {
+		background: #0099CC;
+		font-size: 18px;
+		color: #FFFFFF;
+		line-height: 25px;
+		margin: 0 auto;
+		padding: 10px;
+		display: block;
+		width:155px;
+		text-align: center;
+		cursor: pointer;
+		margin-top: 50px;
+		&:hover{
+			background: #027BA3;
+		}
+	}
+	.data {
+		width: 38%;
+		background: url(/application/static/img/service_content.png) repeat;
+		display: inline-block;
+		height: 410px;
+		padding: 20px;
+		min-height: 380px;
+		box-shadow: 2px 4px 6px rgba(0,0,0,0.4);
+		ul {
+			padding-left: 0;
+			width: 94%;
+			padding: 3%;
+			margin: 20px auto 0;
+			font-size: 0;
+			background: rgba(0,0,0,0.04);;
+			li {
+				list-style: none;
+				width: 46%;
+				margin: 0 2%;
+				display: inline-block;
+				border-right: 1px solid #979797;
+				&:nth-child(2n){
+					border-right: none;
+				}
+				a{
+					font-size: 14px;
+					color: #444444;
+					line-height: 30px;
+				}
+			}
+		}
+
+	}
+	.visit {
+		width: 58%;
+		float: right;
+		padding: 20px;
+		background: url(/application/static/img/service_content.png) repeat;
+		height: 410px;
+		min-height: 380px;
+		box-shadow: 2px 4px 6px rgba(0,0,0,0.4);
+		.visit-detail-left {
+			width: 48%;
+			float: left;
+			margin: 0 1%;
+			.form-group{
+				margin-bottom: 6px;
+				label{
+					width: 28%;
+					vertical-align: top;
+				}
+				input,textarea {
+					display: inline-block;
+					width: 70%;
+				}
+			}
+		}
+		a.btn{
+			float: right;
+			border-radius: 0;
+			margin-top: 10px;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+-
+    label: MAIN NAVIGATION
+    icon: [fa]
+    type: header
+-
+    label: Home
+    icon: [fa, fa-dashboard]
+    content: /admin/home/index
+    children:
+        -
+            label: Test Navigation
+            icon: [fa, fa-dashboard]
+            content: /
+        -
+            label: Test Navigation
+            icon: [fa, fa-dashboard]
+            content: /

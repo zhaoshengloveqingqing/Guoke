@@ -1,0 +1,7 @@
+{
+  "from": "roles",
+  "columns": [
+	{ "data":"roles.id", "title":"ID"},
+	{ "data":"roles.role", "title":"Role" }
+  ]
+}

@@ -1,0 +1,93 @@
+#workbench{
+	h3{
+		font-size: 12px;
+		color: #999999;
+		line-height:16px;
+	}
+	.newslists {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 30px;
+		.listview {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				margin-top: 20px;
+				a{
+					display: block;
+					width: 100%;
+					font-size: 18px;
+					line-height: 18px;
+					padding-bottom: 10px;
+					border-bottom: 1px solid #EEEEEE;
+					text-decoration: underline;
+					color: #0000EE;
+					cursor: pointer;
+					span{
+						&.red{
+							color: #CC0000;
+							text-decoration: underline;
+						}
+					}
+				}
+				p{
+					font-size: 13px;
+					color: #333333;
+					line-height: 20px;
+					border-bottom: 1px solid #EEEEEE;
+					padding: 5px 0;
+					span{
+						color: #CC0000;
+						display: inline-block;
+						font-style: normal;
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+}
+@mixin fix-mobile(){
+	@include fix-mobile-header();
+	@include fix-mobile-footer();
+	#workbench{
+		margin: 0 auto;
+		width: 94%;
+		margin-top:100px;
+	}
+}
+@mixin fix-ipad(){
+	@include fix-ipad-header();
+	@include fix-ipad-footer();
+	#workbench{
+		margin: 0 auto;
+		width: 90%;
+		margin-top: 145px;
+	}
+}
+@mixin fix-desktop(){
+	#workbench{
+		margin: 0 auto;
+		width: 84%;
+		margin-top: 145px;
+	}
+}
+
+
+
+@mixin section_solution_search($args...) {
+	@include device-desktop() {
+		@include fix-desktop();
+	}
+	@include device-mobile() {
+		@include fix-mobile();
+	}
+	@include device-ipad() {
+		@include fix-ipad();
+	}
+}

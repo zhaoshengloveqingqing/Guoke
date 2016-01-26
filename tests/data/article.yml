@@ -1,0 +1,183 @@
+-
+        content: {{php "Clips\random_string" 500}}苏州国科数据中心可以为高科技中小企业、政府机构、金融机构、新兴互联网服务企业提供高品质\r\n	的托管、IDC基础服务和云计算服务，旨在打造成江苏省乃至华东地区最大的灾备中心、云服务中心、
+        image_id: 9
+        category_id: 4
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        content: {{php "Clips\random_string" 500}}苏州国科数据中心可以为高科技中小企业、政府机构、金融机构、新兴互联网服务企业提供高品质\r\n	的托管、IDC基础服务和云计算服务，旨在打造成江苏省乃至华东地区最大的灾备中心、云服务中心、
+        image_id: 9
+        category_id: 4
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        content: {{php "Clips\random_string" 550}}依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复
+        image_id: 10
+        category_id: 4
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        content: {{php "Clips\random_string" 520}}依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复
+        image_id: 10
+        category_id: 4
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 智慧城市
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        image_id: 11
+        category_id: 2
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 企业应用
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        image_id: 11
+        category_id: 2
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 移动互联网test
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        image_id: 11
+        category_id: 2
+        created_date:  {{php "Clips\timestamp"}}
+
+-
+        title: Test
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        image_id: 11
+        category_id: 2
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 公司新闻一
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        release_date: 2015-01-01
+        visit_volumn: 100
+        image_id: 16
+        category_id: 31
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 公司新闻二
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        release_date: 2015-01-01
+        visit_volumn: 567
+        image_id: 16
+        category_id: 31
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 通知活动新闻
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        release_date: 2015-01-01
+        visit_volumn: 32
+        image_id: 16
+        category_id: 32
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: test data
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        release_date: 2015-01-01
+        visit_volumn: 100
+        image_id: 16
+        category_id: 33
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: {{php "Clips\random_string" 100}}
+        content: 依托于开放平台的各类企业应用并不是独立的系统，这些应用多是彼此连接的、\r\n相互通过不同层次进行交互，同时这些应用又都有可能与其它企业的相关应用连接，从而构成一个结构复\r\n
+        release_date: 2015-01-01
+        visit_volumn: 100
+        image_id: 16
+        category_id: 34
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        content: {{php "Clips\random_string" 500}}
+        image_id: 9
+        category_id: 4
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        content: {{php "Clips\random_string" 500}}sfg
+        image_id: 9
+        category_id: 4
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        content: {{php "Clips\random_string" 550}}
+        image_id: 10
+        category_id: 4
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        content: {{php "Clips\random_string" 520}}
+        image_id: 10
+        category_id: 4
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: wisdom city
+        content: On open platform of all kinds enterprise application is not an independent system, the application is connected to each other more, \ r \ n through different levels interact each other, at the same time, these applications and is likely to be related with other enterprise application connection, so as to form a complex structure \ r \ n
+        image_id: 11
+        category_id: 2
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: enterprise applications
+        content: On open platform of all kinds enterprise application is not an independent system, the application is connected to each other more, \ r \ n through different levels interact each other, at the same time, these applications and is likely to be related with other enterprise application connection, so as to form a complex structure \ r \ n
+        image_id: 11
+        category_id: 2
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: mobile internet
+        content: On open platform of all kinds enterprise application is not an independent system, the application is connected to each other more, \ r \ n through different levels interact each other, at the same time, these applications and is likely to be related with other enterprise application connection, so as to form a complex structure \ r \ n
+        image_id: 11
+        category_id: 2
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: Test
+        content: On open platform of all kinds enterprise application is not an independent system, the application is connected to each other more, \ r \ n through different levels interact each other, at the same time, these applications and is likely to be related with other enterprise application connection, so as to form a complex structure \ r \ n
+        image_id: 11
+        category_id: 2
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 市场主管
+        content: 主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好/主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好
+        image_id: 8
+        category_id: 7
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 云计算运营工程师
+        content: 主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好/主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好
+        image_id: 8
+        category_id: 7
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 销售经理
+        content: 主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好/主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好
+        image_id: 8
+        category_id: 7
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 值班主管
+        content: 主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好/主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好
+        image_id: 8
+        category_id: 7
+        created_date: {{php "Clips\timestamp"}}
+
+-
+        title: 值班技师（电气、暖通）
+        content: 主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好/主科以上学历，市场营销，广告或者相关专业优先;三年以上市场相关经验;形象气质良好
+        image_id: 8
+        category_id: 7
+        created_date: {{php "Clips\timestamp"}}

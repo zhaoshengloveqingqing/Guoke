@@ -1,0 +1,57 @@
+namespace:
+    - Pinet\Guoke\
+route_rules:
+    - /application/rules/route.rules
+    - /rules/route.rules
+filters:
+    - Widget
+    - Rules
+    - Form
+    - Scss
+    - Css
+    - SmartyView
+    - MustacheView
+    - JsonView
+    - DirectView
+helpers:
+    - web
+    - html
+default_view: Smarty
+resolutions: [320,400,480,560,768,1024,1280,1440,1920,2880]
+#widget_cache: true
+debug_sass: true
+sass_plugins:
+    - AutoResolution
+logger:
+    handlers:
+        Stream:
+            - php://stdout
+            - debug
+        FirePHP:
+            - debug
+        ChromePHP:
+            - debug
+    processors:
+        - Git
+        - PsrLogMessage
+        - Introspection
+        - Tag
+sass_preload:
+    - variables
+models:
+    user:
+        datasource: clips
+    group:
+        datasource: clips
+datasources:
+    default: clips
+    mysql:
+        type: MySQLi
+        database: guoke
+        table_prefix: c_
+    clips:
+        type: clips
+        datasource: mysql
+        table_prefix: c_
+        filters:
+            - prefix

@@ -1,0 +1,15 @@
+-
+        name: ["1212"]
+        thumbnail: '[{"path":["service\/icon1.png"]}]'
+        type: 1
+        path: '[{"path":["application/static/file/test.zip"]}]'
+
+-
+        name: ["1212"]
+        thumbnail: '[{"path":["service\/icon2.png"]}]'
+        type: 1
+        path: '[{"path":["application/static/file/test.zip"]}]'
+
+
+
+

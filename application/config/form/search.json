@@ -1,0 +1,16 @@
+[
+	{
+		"field":"search",
+		"label":""
+	},
+	{
+		"field":"column_id",
+		"label":"",
+		"state":"hidden",
+		"rules": [
+			{
+				"type": "hidden"
+			}
+		]
+	}
+]

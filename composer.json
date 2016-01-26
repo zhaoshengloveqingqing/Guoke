@@ -1,0 +1,20 @@
+{
+    "name": "guitarpoet/clips-web",
+    "description": "The prototype clips tool web application.",
+    "authors": [
+        {
+            "name": "Jack",
+            "email": "guitarpoet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Pinet\\Guoke\\": "application/"
+		}
+	},
+	"require": {
+		"php": ">=5.3.0",
+        "guitarpoet/clips-tool": "dev-master"
+	}
+}

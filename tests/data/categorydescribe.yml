@@ -1,0 +1,87 @@
+-
+        category_id: 11
+        content: calculate
+
+-
+        category_id: 12
+        content: storage
+
+-
+        category_id: 13
+        content: network
+
+-
+        category_id: 14
+        content: security
+
+-
+        category_id: 15
+        content: calculate
+
+-
+        category_id: 16
+        content: calculate
+
+-
+        category_id: 31
+        type_id: 10
+        content: COMPANY NEWS
+
+-
+        category_id: 32
+        type_id: 11
+        content: NOTICE NEWS
+
+-
+        category_id: 33
+        content: INDUSTRY TRENDS
+        type_id: 12
+
+-
+        category_id: 34
+        type_id: 12
+        content: MEDIS FOCUS
+
+-
+        category_id: 7
+        type_id: 27
+        title: marketing director
+        content: Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic/Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic
+
+-
+        category_id: 7
+        type_id: 28
+        title: cloud computing operating engineerns
+        content: Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic/Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic
+
+-
+        category_id: 7
+        type_id: 29
+        title: sales manager
+        content: Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic/Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic
+
+-
+        category_id: 7
+        type_id: 30
+        title: supervisor on duty
+        content: Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic/Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic
+
+-
+        category_id: 7
+        type_id: 31
+        title: duty engineer
+        content: Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic/Courses or above, major in marketing, advertising or related major is preferred; Three years of relevant experience in the market; Good image and characteristic
+
+-
+        category_id: 8
+        content:  The national science data co., LTD in suzhou;Suzhou creative industrial park
+
+-
+        category_id: 8
+        content:  The national science data co., LTD in suzhou;Suzhou creative industrial park
+
+-
+        category_id: 31
+        type_id: 9
+        title: activity news
+        content:  On open platform of all kinds enterprise application is not an independent system, the application is connected to each other more, \ r \ n through different levels interact each other, at the same time, these applications and is likely to be related with other enterprise application connection, so as to form a complex structure \ r \ n

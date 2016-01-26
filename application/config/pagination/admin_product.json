@@ -1,0 +1,12 @@
+{
+  "from": "products",
+  "columns": [
+    { "data":"products.id", "title":"ID" },
+    { "data":"products.name", "title":"Name" },
+    { "data":"products.introductions", "title":"Introductions" },
+    { "data":"products.image_url", "title":"Image_url" },
+    { "data":"products.functions", "title":"Functions" },
+    { "data":"products.advantages", "title":"Advantage" },
+    { "data":"products.cases", "title":"Case" }
+  ]
+}

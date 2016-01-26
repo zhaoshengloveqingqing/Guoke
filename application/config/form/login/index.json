@@ -1,0 +1,22 @@
+[
+	{
+		"field":"username",
+		"label":"登录名：",
+		"placeholder": "请输入登录邮箱"
+	},
+	{
+		"field":"password",
+		"label":"登录密码：",
+		"placeholder": "请输入登陆密码",
+		"rules": [
+			{
+				"type": "password"
+			}
+		]
+	},
+	{
+		"field":"code",
+		"label":"验证码：",
+		"placeholder": "输入验证码"
+	}
+]

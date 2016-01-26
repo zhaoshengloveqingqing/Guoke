@@ -1,0 +1,269 @@
+#nav {
+	.actionbar__brand {
+		float: left !important;
+	}
+	.login {
+		display: inline-block;
+		margin-left:70px;
+		padding-left: 15px;
+		border-left:1px solid #979797;
+		font-size: 30px;
+		color: #FFFFFF;
+		float: left;
+	}
+}
+.swiper-container {
+	.swiper-slide {
+		.responsive {
+			width: 100%;
+		}
+	}
+	.login_banner1 {
+		background: url(php_static_url("/application/static/img/login/banner1.png")) no-repeat;
+		min-height:764px;
+		background-size:cover;
+	}
+	.login_banner2 {
+		background: url(php_static_url("/application/static/img/login/banner2.png")) no-repeat;
+		min-height:764px;
+		background-size:cover;
+	}
+	.swiper-button-prev {
+		position: absolute;
+		top: 95%;
+		background: url(php_static_url("/application/static/img/login/prev.png")) no-repeat;
+		height: 33px;
+		width: 33px;
+		display: inline-block;
+	}
+	.swiper-button-next {
+		position: absolute;
+		top: 95%;
+		display: inline-block;
+		height: 33px;
+		width: 33px;
+		left: 50px;
+		background: url(php_static_url("/application/static/img/login/next.png")) no-repeat;
+	}
+}
+#login {
+	background: rgba(245,245,245,0.4);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	width: 464px;
+	height: 450px;
+	margin: auto;
+	position: absolute;
+	top: 21%;
+	right: 8%;
+	z-index: 80;
+	.login-content {
+		padding:50px 56px 64px;
+	}
+	.form-group.control-group {
+		margin-bottom: 0;
+		label {
+			font-size: 18px;
+			color: #444444;
+			line-height: 31px;
+		}
+		input {
+			background: #FFFFFF;
+			font-size: 16px;
+			color: #999999;
+		}
+		&.code {
+			width:50%;
+			display:inline-block;
+		}
+	}
+	p.forget {
+		font-size: 14px;
+		color: #777777;
+		margin-bottom: 0;
+	}
+	.code-content {
+		display:inline-block;
+		margin-left: 10px;
+		span {
+			color:#ffffff;
+			position: relative;
+			top: -1px;
+		}
+		a{
+			font-size: 14px;
+			color: #444444;
+			margin-left: 10px;
+			cursor: pointer;
+		}
+	}
+	.deal {
+		margin-bottom:10px;
+		label{
+			font-size: 13px;
+			color: #444444;
+			line-height: 16px;
+		}
+	}
+	.login-btn {
+		background: #0099CC;
+		border-radius:0;
+		border:none;
+		color:#ffffff;
+		font-size:20px;
+		width:130px;
+		&:hover{
+			background: #027BA3;
+		}
+	}
+	.register{
+		vertical-align: bottom;
+		font-size: 14px;
+		margin-left: 10px;
+		color: #444444;
+	}
+	.qr-image{
+		margin-top: 10px;
+		a{
+			cursor: pointer;
+			background: url(php_static_url("/application/static/img/login/wx.png")) no-repeat;
+			width:24px;
+			float:right;
+			height: 24px;
+			display: block;
+			&:hover {
+				background: url(php_static_url("/application/static/img/login/wx-blue.png")) no-repeat;
+			}
+		}
+	}
+	.qr-login{
+		display: none;
+		padding:60px 82px 70px;
+		padding: 60px 5px 0;
+		width:100%;
+		text-align: center;
+		margin:0 auto;
+		.responsive {
+			margin: 0 auto;
+			width:193px;
+			height: 193px;
+		}
+		p{
+			margin:35px 0 15px;
+			font-size: 13px;
+			color: #444444;
+			a{
+				color: #027BA3;
+				cursor: pointer;
+			}
+		}
+		.back-btn {
+			background: #0099CC;
+			border-radius:0;
+			border:none;
+			color:#ffffff;
+			font-size:20px;
+			width:80%;
+			margin:0 auto;
+			&:hover{
+				background: #027BA3;
+			}
+		}
+	}
+}
+
+
+@mixin fix-mobile(){
+	@include fix-mobile-header();
+	@include fix-mobile-footer();
+	#nav {
+		.login {
+			display: none;
+		}
+	}
+	.actionbar__search-form {
+		right: -85px;
+	}
+
+
+	.swiper-container {
+		.login_banner1 {
+			background: url(php_static_url("/application/static/img/login/banner1_mobile.png")) no-repeat;
+			min-height:647px;
+			background-size:cover;
+		}
+		.login_banner2 {
+			display: none;
+		}
+		.swiper-button-prev,.swiper-button-next  {
+			display: none;
+		}
+	}
+	#login {
+		max-width: 420px;
+		max-height: 415px;
+		width: 92%;
+		top: 20%;
+		right: 0;
+		left: 0;
+		right: 0;
+		.login-content {
+			padding:30px 15px 45px;
+		}
+		.form-group.control-group {
+			&.code {
+				width:40%;
+			}
+		}
+		.code-content {
+			margin-left: 2px;
+			a{
+				margin-left: 2px;
+			}
+			span {
+				top: -2px;
+			}
+		}
+		.qr-login{
+			padding: 44px 5px 70px;
+			.back-btn {
+				width:80%;
+			}
+		}
+
+	}
+
+}
+
+@mixin fix-ipad(){
+	@include fix-ipad-header();
+	@include fix-ipad-footer();
+	#nav {
+		.login {
+			line-height: 40px;
+			margin-left:40px;
+		}
+	}
+
+}
+
+@mixin fix-desktop(){
+
+}
+
+@mixin section_login_index($args...) {
+	@include device-desktop() {
+		@include fix-desktop();
+	}
+	@include device-mobile() {
+		@include fix-mobile();
+	}
+	@include device-ipad() {
+		@include fix-ipad();
+	}
+}
+
+
+
+
+

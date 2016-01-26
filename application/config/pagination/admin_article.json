@@ -1,0 +1,10 @@
+{
+  "from": "article",
+  "columns": [
+    { "data":"article.id", "title":"ID", "action":"admin/article/show" },
+    { "data":"article.title", "title":"Title" },
+    { "data":"article.content", "title":"Content" },
+    { "data":"article.release_date", "title":"Release Date" },
+    { "data":"article.type", "title":"Type" }
+  ]
+}

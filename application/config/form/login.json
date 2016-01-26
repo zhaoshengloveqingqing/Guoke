@@ -1,0 +1,18 @@
+[
+	{
+		"field": "username",
+		"label": "Username",
+		"rules": [
+			{ "type":"string" },
+			"required"
+		]
+	},
+	{
+		"field": "password",
+		"label": "Password",
+		"rules": [
+			{ "type":"password" },
+			"required"
+		]
+	}
+]

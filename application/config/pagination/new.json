@@ -1,0 +1,25 @@
+{
+  "from": "article",
+  "columns": [
+    { "data":"article.id","title":"ID" },
+    { "data":"article.title",  "action":"service/news_detail","title":"Title"},
+    { "data":"article.content", "title":"Content" },
+    { "data":"article.release_date", "title":"Release_date" },
+    { "data":"article.visit_volumn", "title":"Visit_volumn" },
+    { "data":"article.category_id", "title":"Category_id" },
+    { "data":"article.image_id", "title":"Image_id"},
+    { "data":"image.image_url", "title":"Image_url"}
+  ],
+  "join": [
+    ["image", {"article.image_id":"image.id"}]
+  ],
+  "pageLength":"3",
+  "listtype": "static",
+  "selectType": "single",
+  "columns_count": 0,
+  "length_select_template": "",
+  "fliter_template": "",
+  "order_box": "",
+  "order_dir_box": ""
+}
+

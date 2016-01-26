@@ -1,0 +1,33 @@
+.success{
+	width: 84%;
+	margin: 0 auto;
+	h3{
+		margin-top: 165px;
+		font-size: 24px;
+		color: #444444;
+		line-height:35px;
+		text-align: left;
+		padding-left: 10px;
+		border-bottom: 1px solid #979797;
+	}
+	div{
+		width: 243px;
+		height: 90px;
+		margin: 0 auto;
+		margin-top: 60px;
+		background: url(php_static_url("/application/static/img/about/success.png")) no-repeat;
+		background-size: cover;
+	}
+	p{
+		text-align: center;
+		a{
+			cursor: pointer;
+			font-size: 12px;
+			color: #444444;
+			line-height: 52px;
+			padding-left: 48px;
+			text-decoration: none;
+		}
+		margin-bottom: 300px;
+	}
+}

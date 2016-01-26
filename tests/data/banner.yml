@@ -1,0 +1,15 @@
+-
+        contents: '[{"title":["国科数据中心 HOME"],"path":["home\/banner.png"]},{"title":["国科数据中心 HOME 2222"],"path":["upfiles\/62398744banner.png"]}]'
+        type: 1
+
+-
+        contents: '[{"title":["国科数据中心 NEWS"],"path":["home\/support-banner.png"]}]'
+        type: 2
+
+-
+        contents: '[{"title":["NEWS 1"],"path":["news\/pic1.png"]},{"title":["NEWS 2"],"path":["news\/pic2.png"]},{"title":["NEWS 3"],"path":["news\/pic3.png"]}]'
+        type: 3
+
+-
+        contents: '[{"title":["国科数据 ABOUT US"],"path":["about\/banner.png"]}]'
+        type: 4

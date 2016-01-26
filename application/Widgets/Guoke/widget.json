@@ -1,0 +1,29 @@
+{
+	"author": "jean",
+	"date": "Mon August 3 15:05:26 2015",
+	"version": "guoke",
+	"name": "guoke",
+	"doc":"guoke",
+	"js": {
+		"files": [
+			"swiper.min.js",
+			"swiper.jquery",
+			"swiper",
+			"classList",
+			"swiper-banner.js"
+		]
+	},
+	"scss": {
+		"files": [
+			"layouts/bootstrap-layout",
+			"layouts/gouke_mixin",
+		    "layouts/submenu-layout",
+			"layouts/category-layout"
+		]
+	},
+	"css": {
+		"files": [
+			"swiper.min.css"
+		]
+	}
+}

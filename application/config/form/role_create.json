@@ -1,0 +1,16 @@
+[
+	{
+		"field": "role",
+		"label": "Role",
+		"rules": [
+			{ "type":"string" },
+			{ "maxlengh":"20" },
+			{ "minlength":"4" },
+			"required"
+		]
+	},
+	{
+	  "field": "permissions[]",
+	  "label": "Permissions"
+	}
+]

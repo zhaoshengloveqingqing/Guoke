@@ -1,0 +1,56 @@
+.row {
+	margin: 0 auto;
+	width: 84%;
+}
+#meun {
+	width: 27%;
+	padding-top: 10px;
+	display: inline-block;
+	h3{
+		font-size: 20px;
+		line-height: 28px;
+		a{
+			color: #444444;
+		}
+	}
+	.meun-content {
+		border-top: 1px solid #979797;
+		padding: 15px 0;
+		width: 100%;
+		@include ul;
+		ul {
+			padding-left: 0;
+			li {
+				font-size: 14px;
+				color: #444444;
+				line-height: 35px;
+				background: #EDEDED;
+				border-bottom: 1px solid #979797;
+				padding-left: 16px;
+				&.title {
+					background: #0099CC;
+					font-size: 18px;
+					color: #FFFFFF;
+					line-height: 45px;
+					border-bottom: none;
+				}
+				&:last-child {
+					border-bottom: none;
+				}
+				a {
+					font-size: 14px;
+					color: #444444;
+					cursor: pointer;
+				}
+				&.active{
+					background: #D0E4EA;
+				}
+			}
+		}
+	}
+}
+footer {
+	.footer-navbar {
+		margin-top: 80px;
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"from": "resources",
+	"columns": [
+		{ "data":"resources.id", "title":"ID" },
+	    { "data":"resources.thumbnail","title":"Thumbnail", "render": "datatable_render_resource_name" },
+	  	{ "data":"resources.type","title":"Type","render":"datatable_render_resource_type"}
+	],
+  "lengthChange": false,
+  "searching": false,
+  "bundle": "resource"
+
+}

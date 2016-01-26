@@ -1,0 +1,14 @@
+{
+  "from": "specifications",
+  "columns": [
+    { "data":"specifications.id", "title":"ID" },
+    { "data":"specifications.name", "title":"Name" },
+    { "data":"specifications.contents", "title":"Contents" },
+    { "data":"specifications.image_url", "title":"Image_url" },
+    { "data":"specifications.price", "title":"Price" },
+    { "data":"product.name", "title":"Product", "refer":"products.id" }
+  ],
+  "join": [
+    ["products", {"specifications.products_id":"products.id"}]
+  ]
+}

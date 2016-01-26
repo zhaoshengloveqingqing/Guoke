@@ -1,0 +1,425 @@
+users:
+    username:
+        label: Username
+        type: string
+        options:
+            limit: 32
+    password:
+        label: Password
+        type: char
+        options:
+            limit: 60
+roles:
+    role:
+        label: Role
+        type: string
+        options:
+            limit: 32
+
+permissions:
+    controller:
+        label: Controller
+        type: string
+        options:
+            limit: 64
+    method:
+        label: Method
+        type: string
+        options:
+            limit: 64
+    filter:
+        label: Filter
+        type: string
+        options:
+            limit: 100
+            default: 1
+    notes:
+        label: Notes
+        type: string
+        options:
+            limit: 300
+
+user_role:
+    user_id:
+        label: User
+        foreign_key: users
+    role_id:
+        label: Role
+        foreign_key: roles
+
+role_permission:
+    role_id:
+        label: Role
+        foreign_key: roles
+    permission_id:
+        label: Permission
+        foreign_key: permissions
+
+language:
+    name:
+        label: name
+        type: string
+        options:
+            limit: 30
+
+image:
+    image_url:
+        label:  image_url
+        type: string
+        options:
+            limit: 200
+    image_hover_url:
+        label: image_hover_url
+        type: string
+        options:
+            limit: 200
+    type:
+        label:  type
+        type: string
+        options:
+            limit: 20
+            default: image
+    content:
+        label: content
+        type: text
+
+category:
+    name:
+        label: name
+        type: string
+        options:
+            limit: 50
+    mark:
+        label: mark
+        type: string
+        options:
+            limit: 20
+            default: 1
+    content:
+        label: content
+        type: text
+        options:
+            default: null
+    parent_id:
+        label: parent_id
+    image_id:
+        label: image_id
+
+category_describe:
+    category_id:
+        label: category_id
+        foreign_key: category
+    type_id:
+        label: type_id
+    title:
+        label: title
+        type: string
+        options:
+            limit: 500
+    content:
+        label: content
+        type: string
+        options:
+            limit: 1000
+
+article:
+    title:
+        label: title
+        type: string
+        options:
+            limit: 200
+    content:
+        label: content
+        type: text
+    release_date:
+        label: release_date
+        type: date
+    visit_volumn:
+        label: visit_volumn
+        options:
+            default: 0
+    type:
+        label: Type
+        type: string
+        options:
+            limit: 1000
+
+
+recruit:
+    title:
+        label: title
+        type: string
+        options:
+            limit: 50
+    requirement:
+        label: requirement
+        type: text
+    task:
+        label: task
+        type: text
+    image_id:
+        label: image_id
+        foreign_key: image
+    language_id:
+        label: language_id
+        options:
+            default: 1
+    created_date:
+        label: created_date
+        type: datetime
+
+partner:
+    company_name:
+        label: Company Name
+        type: string
+        options:
+            limit: 128
+    logo_path:
+        label: Logo Path
+        type: string
+        options:
+            limit: 1000
+
+banners:
+    title:
+        label: title
+        type: text
+    contents:
+        label: content
+        type: text
+        options:
+            'null': true
+    type:
+        label: Type
+        type: string
+        options:
+            limit: 1
+
+appointment:
+    contact:
+        label: contact
+        type: string
+        options:
+            limit: 30
+            'null': true
+    price:
+        label: price
+        type: decimal
+        options:
+            precision: 18
+            scale: 2
+            'null': true
+    total_price:
+        label: price
+        type: decimal
+        options:
+            precision: 18
+            scale: 2
+            'null': true
+    phone:
+        label: phone
+        type: string
+        options:
+            limit: 11
+            'null': true
+    email:
+        label: email
+        type: string
+        options:
+            limit: 50
+            'null': true
+    visit_date:
+        label: visit_date
+        type: datetime
+        'null': true
+    visit_number:
+        label: visit_numebr
+        type: string
+        options:
+            limit: 3
+            'null': true
+    visit_describe:
+        label: visit_describe
+        type: text
+        options:
+            'null': true
+    has_voucher:
+        label: has_voucher
+        options:
+            limit: 1
+            default: 1
+            'null': true
+    invoice_title:
+        label: invoice_title
+        type: string
+        options:
+            limit: 100
+            'null': true
+    invoice_content:
+        label: invoice_content
+        type: text
+        options:
+            'null': true
+    created_date:
+        label: created_date
+        type: datetime
+    created_by:
+        label: created_by
+        type: string
+        options:
+            limit: 50
+    is_active:
+        label: is_active
+        options:
+            limit: 1
+            default: 1
+    is_delete:
+        label: is_delete
+        options:
+            limit: 1
+            default: 1
+
+appointment_related:
+    name:
+        label: name
+        type: string
+        options:
+            limit: 30
+            'null': true
+    position:
+        label: position
+        type: string
+        options:
+            limit: 80
+            'null': true
+    company_name:
+        label: company_name
+        type: string
+        options:
+            limit: 100
+            'null': true
+    identity_card:
+        label: identity_card
+        type: string
+        options:
+            limit: 18
+            'null': true
+    appointment_id:
+        label: appointment_id
+        foreign_key: appointment
+    created_date:
+        label: created_date
+        type: datetime
+    created_by:
+        label: created_by
+        type: string
+        options:
+            limit: 50
+    is_active:
+        label: is_active
+        options:
+            limit: 1
+            default: 1
+    is_delete:
+        label: is_delete
+        options:
+            limit: 1
+            default: 1
+
+resources:
+    name:
+        label: Name
+        type: string
+        options:
+            limit: 30
+    thumbnail:
+        label: Thumbnail
+        type: string
+        options:
+            limit: 1000
+    type:
+        label: Type
+        type: string
+        options:
+            limit: 64
+    path:
+        label: Path
+        type: string
+        options:
+            limit: 1000
+
+products:
+    name:
+        label: Name
+        type: string
+        options:
+            limit: 60
+            default: null
+    introductions:
+        label: Description
+        type: text
+        options:
+            default: null
+    image_url:
+        label: Image_url
+        type: string
+        options:
+            limit: 500
+            default: null
+    functions:
+        label: Function
+        type: text
+        options:
+            default: null
+    advantages:
+        label: Advantage
+        type: text
+        options:
+            default: null
+    cases:
+        label: Advantage
+        type: text
+        options:
+            default: null
+    type:
+        label: Type
+        type: string
+        options:
+            limit: 1
+            default: null
+
+
+
+specifications:
+    name:
+        label: Name
+        type: string
+        options:
+            limit: 50
+            default: null
+    contents:
+        label: Content
+        type: string
+        options:
+            limit: 50
+            default: null
+    image_url:
+        label: Image_url
+        type: string
+        options:
+            limit: 500
+            default: null
+    price:
+        label: Price_year
+        type: decimal
+        options:
+            precision: 18
+            scale: 2
+            'null': true
+    product_id:
+        label: Product_Id
+
+
+
+
+

@@ -1,0 +1,31 @@
+.submenu-maincontent{
+	margin-bottom: 200px;
+	.title{
+		width: 97%;
+		height: 40px;
+		border-bottom: 1px solid #979797;
+		border-left: 10px solid #0099CC;
+		position: relative;
+		margin-left: 20px;
+		h3{
+			width: 100%;
+			font-size: 24px;
+			color: #444444;
+			line-height: 25px;
+			text-align: left;
+			padding-left: 30px;
+		}
+	}
+	.content-right{
+		text-align: left;
+		ul, ol {
+			padding-left: 43px;
+			margin-top: 30px;
+			margin-bottom: 10px;
+			text-align: left;
+			list-style: none;
+			color: #444444;
+			line-height: 22px;
+		}
+	}
+}

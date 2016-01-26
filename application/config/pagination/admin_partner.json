@@ -1,0 +1,12 @@
+{
+	"from": "partner",
+	"columns": [
+		{ "data":"partner.id", "title":"ID" },
+	  	{ "data":"partner.company_name","title":"Company Name" },
+        { "data":"partner.logo_path","title":"Logo Path", "render": "datatable_render_partner_name" }
+	],
+  "lengthChange": false,
+  "searching": false,
+  "bundle": "coupon"
+
+}

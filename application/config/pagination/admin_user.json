@@ -1,0 +1,7 @@
+{
+  "from": "users",
+  "columns": [
+    { "data":"users.id", "title":"ID"},
+    { "data":"users.username", "title":"Username" }
+  ]
+}

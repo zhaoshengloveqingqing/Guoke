@@ -1,0 +1,72 @@
+[
+  {
+	"field": "id",
+	"label": "ID",
+	"rules": [
+	  { "type":"hidden" },
+	  "required"
+	]
+  },
+  {
+	"field": "name",
+	"label": "Name",
+	"rules": [
+	  { "type":"string" },
+	  { "maxlengh":"20" },
+	  { "minlength":"4" },
+	  "required"
+	]
+  },
+  {
+	"field": "introductions",
+	"label": "Introductions",
+	"rules": [
+	  { "type":"text" },
+	  { "maxlengh":"1000" },
+	  "required"
+	]
+  },
+  {
+	"field": "image_url",
+	"label": "Image_url",
+	"rules": [
+	  { "type":"string" },
+	  { "maxlengh":"60" },
+	  "required"
+	]
+  },
+  {
+	"field": "functions",
+	"label": "Functions",
+	"rules": [
+	  { "type":"text" },
+	  { "maxlengh":"1000" },
+	  "required"
+	]
+  },
+  {
+	"field": "advantages",
+	"label": "Advantages",
+	"rules": [
+	  { "type":"text" },
+	  { "maxlengh":"1000" },
+	  "required"
+	]
+  },
+  {
+	"field": "type",
+	"label": "Type",
+	"rules": [
+	  { "type":"string" },
+	  { "maxlength":"1" },
+	  "required"
+	]
+  }
+]
+
+
+
+
+
+
+
